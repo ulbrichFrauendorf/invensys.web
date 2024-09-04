@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
   selector: 'app-section-services',
   standalone: true,
-  imports: [],
+  imports: [ButtonModule],
   templateUrl: './section-services.component.html',
-  styleUrl: './section-services.component.scss'
+  styleUrl: './section-services.component.scss',
 })
-export class SectionServicesComponent {
-
-}
+export class SectionServicesComponent {}
