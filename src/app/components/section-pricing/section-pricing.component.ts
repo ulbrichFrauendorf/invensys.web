@@ -6,8 +6,11 @@ import { ButtonModule } from 'primeng/button';
   standalone: true,
   imports: [ButtonModule],
   templateUrl: './section-pricing.component.html',
-  styleUrl: './section-pricing.component.scss'
+  styleUrl: './section-pricing.component.scss',
 })
 export class SectionPricingComponent {
-
+  openEmail() {
+    window.location.href =
+      'mailto:ublich@invensys.web.za?subject=Integrate my Data';
+  }
 }
