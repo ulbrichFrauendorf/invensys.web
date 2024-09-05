@@ -8,4 +8,9 @@ import { ButtonModule } from 'primeng/button';
   templateUrl: './section-contact.component.html',
   styleUrl: './section-contact.component.scss',
 })
-export class SectionContactComponent {}
+export class SectionContactComponent {
+  openEmail() {
+    window.location.href =
+      'mailto:ublich@invensys.web.za?subject=Integrate my Data';
+  }
+}
